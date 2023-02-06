@@ -1,0 +1,72 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(LOOPY___.ttf);
+  }
+  
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    background: url(https://images.unsplash.com/photo-1550684376-efcbd6e3f031?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    font-family: myFirstFont;
+
+}
+
+h1{
+    font-size: 30px;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers-box{
+    display: flex;
+
+}
+
+.numbers-box div{
+    margin: 5px;
+}
+
+.numbers-box span{
+    width: 100px;
+    height: 80px;
+    background: gray;
+    opacity: .8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.numbers-box .text{
+    height: 30px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    background: rgb(65, 65, 65);
+    opacity: 0.8;
+}
+
+.numbers-box .ampmbox{
+    height: 110;
+    background: rgb(65, 65, 65);
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers-box .am-pm{
+    background: rgb(65, 65, 65);
+    opacity: 0.8;
+}
